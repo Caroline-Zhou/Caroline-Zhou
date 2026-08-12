@@ -31,10 +31,10 @@ jobs:
 
       - uses: yuki4266/living-scene@v1
         with:
-          lat: "35.99"          # Durham, NC
-          lon: "-78.90"
-          tz: America/New_York
-          weather: ${{ inputs.weather }}
-          season: ${{ inputs.season }}
-          force: ${{ inputs.force }}
-          commit-message: "🌦 scene sync: {state}"
+             lat: "31.2304" # Shanghai, China
+             lon: "121.4737"
+             tz: Asia/Shanghai
+             weather: ${{ inputs.weather }}
+             season: ${{ inputs.season }}
+             force: ${{ inputs.force }}
+             commit-message: "🌦 scene sync: {state}"
