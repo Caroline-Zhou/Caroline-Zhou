@@ -1,77 +1,273 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
-<title>Caroline Zhou — tech stack garden</title>
-<rect width="900" height="330" fill="transparent"/>
-<path d="M42 26 C50 72, 26 108, 42 154 C56 196, 30 230, 42 286" stroke="#A9C59A" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 0" opacity="0.85"/>
-<path d="M42 64 C50 66, 52 74, 57 78" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 72 C36 74, 33 82, 29 85" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 122 C50 124, 52 132, 57 136" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 130 C36 132, 33 140, 29 143" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 180 C50 182, 52 190, 57 194" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 188 C36 190, 33 198, 29 201" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 238 C50 240, 52 248, 57 252" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<path d="M42 246 C36 248, 33 256, 29 259" stroke="#89B07A" stroke-width="2" fill="none" stroke-linecap="round"/>
-<line x1="18" y1="306" x2="882" y2="306" stroke="#F4D7DE" stroke-width="1" opacity="0.5"/>
-<ellipse cx="54.0" cy="49.7" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(0.0 54.0 49.7)" /><ellipse cx="59.4" cy="54.2" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(42.0 59.4 54.2)" /><ellipse cx="57.6" cy="60.5" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(28.0 57.6 60.5)" /><ellipse cx="50.4" cy="60.5" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(332.0 50.4 60.5)" /><ellipse cx="48.6" cy="54.2" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(318.0 48.6 54.2)" /><circle cx="54" cy="56" r="3.8" fill="#FDE5EB" stroke="#F4A6B8" stroke-width="1" /><circle cx="54" cy="56" r="0.7" fill="#F4A6B8" /><circle cx="52.8" cy="56.8" r="0.7" fill="#F4A6B8" /><circle cx="55.2" cy="56.8" r="0.7" fill="#F4A6B8" /><circle cx="54" cy="54.9" r="0.7" fill="#F4A6B8" />
-<text x="70" y="59" font-size="11" letter-spacing="1.5" fill="#8b949e">DATA / ANALYTICS</text>
-<rect x="170" y="41" rx="13" ry="13" width="57" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="184" cy="54" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="195" y="58.8" font-size="12.5" fill="#E78CA3">Excel</text>
-<rect x="237" y="41" rx="13" ry="13" width="56" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="251" cy="54" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="262" y="58.8" font-size="12.5" fill="#E78CA3">SQL</text>
-<rect x="303" y="41" rx="13" ry="13" width="64" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="317" cy="54" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="328" y="58.8" font-size="12.5" fill="#E78CA3">Python</text>
-<rect x="377" y="41" rx="13" ry="13" width="79" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="391" cy="54" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="402" y="58.8" font-size="12.5" fill="#E78CA3">Power BI</text>
-<ellipse cx="54.0" cy="107.7" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(0.0 54.0 107.7)" /><ellipse cx="59.4" cy="112.2" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(42.0 59.4 112.2)" /><ellipse cx="57.6" cy="118.5" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(28.0 57.6 118.5)" /><ellipse cx="50.4" cy="118.5" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(332.0 50.4 118.5)" /><ellipse cx="48.6" cy="112.2" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(318.0 48.6 112.2)" /><circle cx="54" cy="114" r="3.8" fill="#FDE5EB" stroke="#F4A6B8" stroke-width="1" /><circle cx="54" cy="114" r="0.7" fill="#F4A6B8" /><circle cx="52.8" cy="114.8" r="0.7" fill="#F4A6B8" /><circle cx="55.2" cy="114.8" r="0.7" fill="#F4A6B8" /><circle cx="54" cy="112.9" r="0.7" fill="#F4A6B8" />
-<text x="70" y="117" font-size="11" letter-spacing="1.5" fill="#8b949e">AI / PRODUCT</text>
-<rect x="170" y="99" rx="13" ry="13" width="116" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="184" cy="112" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="195" y="116.8" font-size="12.5" fill="#E78CA3">Prompt Design</text>
-<rect x="296" y="99" rx="13" ry="13" width="79" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="310" cy="112" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="321" y="116.8" font-size="12.5" fill="#E78CA3">LLM Apps</text>
-<rect x="385" y="99" rx="13" ry="13" width="71" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="399" cy="112" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="410" y="116.8" font-size="12.5" fill="#E78CA3">ChatGPT</text>
-<rect x="466" y="99" rx="13" ry="13" width="64" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="480" cy="112" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="491" y="116.8" font-size="12.5" fill="#E78CA3">Claude</text>
-<rect x="540" y="99" rx="13" ry="13" width="56" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="554" cy="112" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="565" y="116.8" font-size="12.5" fill="#E78CA3">Dify</text>
-<ellipse cx="54.0" cy="165.7" rx="4.7" ry="7.1" fill="#B3D0A8" transform="rotate(0.0 54.0 165.7)" /><ellipse cx="59.4" cy="170.2" rx="4.7" ry="7.1" fill="#B3D0A8" transform="rotate(42.0 59.4 170.2)" /><ellipse cx="57.6" cy="176.5" rx="4.7" ry="7.1" fill="#B3D0A8" transform="rotate(28.0 57.6 176.5)" /><ellipse cx="50.4" cy="176.5" rx="4.7" ry="7.1" fill="#B3D0A8" transform="rotate(332.0 50.4 176.5)" /><ellipse cx="48.6" cy="170.2" rx="4.7" ry="7.1" fill="#B3D0A8" transform="rotate(318.0 48.6 170.2)" /><circle cx="54" cy="172" r="3.8" fill="#E8F4E0" stroke="#B3D0A8" stroke-width="1" /><circle cx="54" cy="172" r="0.7" fill="#B3D0A8" /><circle cx="52.8" cy="172.8" r="0.7" fill="#B3D0A8" /><circle cx="55.2" cy="172.8" r="0.7" fill="#B3D0A8" /><circle cx="54" cy="170.9" r="0.7" fill="#B3D0A8" />
-<text x="70" y="175" font-size="11" letter-spacing="1.5" fill="#8b949e">BUSINESS / OPS</text>
-<rect x="170" y="157" rx="13" ry="13" width="79" height="26" fill="#F6FBF3" stroke="#89B07A" stroke-width="1.7"/>
-<circle cx="184" cy="170" r="3.1" fill="#A9C59A" opacity="0.95"/>
-<text x="195" y="174.8" font-size="12.5" fill="#89B07A">Strategy</text>
-<rect x="259" y="157" rx="13" ry="13" width="94" height="26" fill="#F6FBF3" stroke="#89B07A" stroke-width="1.7"/>
-<circle cx="273" cy="170" r="3.1" fill="#A9C59A" opacity="0.95"/>
-<text x="284" y="174.8" font-size="12.5" fill="#89B07A">Operations</text>
-<rect x="363" y="157" rx="13" ry="13" width="94" height="26" fill="#F6FBF3" stroke="#89B07A" stroke-width="1.7"/>
-<circle cx="377" cy="170" r="3.1" fill="#A9C59A" opacity="0.95"/>
-<text x="388" y="174.8" font-size="12.5" fill="#89B07A">E-commerce</text>
-<rect x="467" y="157" rx="13" ry="13" width="131" height="26" fill="#F6FBF3" stroke="#89B07A" stroke-width="1.7"/>
-<circle cx="481" cy="170" r="3.1" fill="#A9C59A" opacity="0.95"/>
-<text x="492" y="174.8" font-size="12.5" fill="#89B07A">Merchant Growth</text>
-<rect x="608" y="157" rx="13" ry="13" width="131" height="26" fill="#F6FBF3" stroke="#89B07A" stroke-width="1.7"/>
-<circle cx="622" cy="170" r="3.1" fill="#A9C59A" opacity="0.95"/>
-<text x="633" y="174.8" font-size="12.5" fill="#89B07A">Market Research</text>
-<ellipse cx="54.0" cy="223.7" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(0.0 54.0 223.7)" /><ellipse cx="59.4" cy="228.2" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(42.0 59.4 228.2)" /><ellipse cx="57.6" cy="234.5" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(28.0 57.6 234.5)" /><ellipse cx="50.4" cy="234.5" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(332.0 50.4 234.5)" /><ellipse cx="48.6" cy="228.2" rx="4.7" ry="7.1" fill="#F4A6B8" transform="rotate(318.0 48.6 228.2)" /><circle cx="54" cy="230" r="3.8" fill="#FDE5EB" stroke="#F4A6B8" stroke-width="1" /><circle cx="54" cy="230" r="0.7" fill="#F4A6B8" /><circle cx="52.8" cy="230.8" r="0.7" fill="#F4A6B8" /><circle cx="55.2" cy="230.8" r="0.7" fill="#F4A6B8" /><circle cx="54" cy="228.9" r="0.7" fill="#F4A6B8" />
-<text x="70" y="233" font-size="11" letter-spacing="1.5" fill="#8b949e">TOOLS / WORKFLOW</text>
-<rect x="170" y="215" rx="13" ry="13" width="64" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="184" cy="228" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="195" y="232.8" font-size="12.5" fill="#E78CA3">GitHub</text>
-<rect x="244" y="215" rx="13" ry="13" width="64" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="258" cy="228" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="269" y="232.8" font-size="12.5" fill="#E78CA3">Notion</text>
-<rect x="318" y="215" rx="13" ry="13" width="94" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="332" cy="228" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="343" y="232.8" font-size="12.5" fill="#E78CA3">PowerPoint</text>
-<rect x="422" y="215" rx="13" ry="13" width="57" height="26" fill="#FFF6F8" stroke="#E78CA3" stroke-width="1.7"/>
-<circle cx="436" cy="228" r="3.1" fill="#F4A6B8" opacity="0.95"/>
-<text x="447" y="232.8" font-size="12.5" fill="#E78CA3">Figma</text>
-<text x="450" y="304" text-anchor="middle" font-size="11" letter-spacing="0.8" fill="#8b949e" opacity="0.95">A blend of data sense, product thinking, and business execution</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+<title>Caroline Zhou — tech stack stars v4</title>
+<defs>
+  <filter id="soft"><feGaussianBlur stdDeviation="0.25"/></filter>
+</defs>
+<rect width="900" height="380" fill="transparent"/>
+
+<!-- refined left vine / floral decoration -->
+<g id="left-garden">
+  <!-- main vine -->
+  <path d="M42 24 C30 62,56 96,42 138 C28 178,57 214,42 256 C31 287,46 316,43 349" stroke="#BBD7AD" stroke-width="3.3" fill="none" stroke-linecap="round"/>
+  <path d="M45 24 C33 62,59 96,45 138 C31 178,60 214,45 256 C34 287,49 316,46 349" stroke="#E8F2E1" stroke-width="1.25" fill="none" stroke-linecap="round" opacity="0.92"/>
+
+  <!-- leaf pairs -->
+  <g opacity="0.96">
+    <path d="M43 49 C52 51,58 57,62 65" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="58" cy="61" rx="6.0" ry="3.0" fill="#D8ECD0" transform="rotate(31 58 61)"/>
+    <ellipse cx="51" cy="56" rx="5.2" ry="2.6" fill="#BCD7AE" transform="rotate(8 51 56)"/>
+    <path d="M42 66 C34 67,28 73,24 80" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="28" cy="75" rx="5.8" ry="2.9" fill="#D8ECD0" transform="rotate(-34 28 75)"/>
+    <ellipse cx="34" cy="70" rx="5.1" ry="2.5" fill="#BCD7AE" transform="rotate(-10 34 70)"/>
+
+    <path d="M43 106 C53 108,58 114,63 122" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="60" cy="117" rx="5.9" ry="2.9" fill="#D8ECD0" transform="rotate(29 60 117)"/>
+    <ellipse cx="53" cy="112" rx="5.0" ry="2.5" fill="#BCD7AE" transform="rotate(7 53 112)"/>
+    <path d="M42 125 C33 127,27 135,23 142" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="28" cy="136" rx="5.8" ry="2.9" fill="#D8ECD0" transform="rotate(-34 28 136)"/>
+    <ellipse cx="34" cy="131" rx="5.1" ry="2.5" fill="#BCD7AE" transform="rotate(-10 34 131)"/>
+
+    <path d="M43 163 C52 165,57 171,61 179" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="58" cy="174" rx="6.0" ry="3.0" fill="#D8ECD0" transform="rotate(31 58 174)"/>
+    <ellipse cx="52" cy="169" rx="5.2" ry="2.6" fill="#BCD7AE" transform="rotate(9 52 169)"/>
+    <path d="M42 183 C33 185,27 193,23 200" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="28" cy="195" rx="5.8" ry="2.9" fill="#D8ECD0" transform="rotate(-34 28 195)"/>
+    <ellipse cx="34" cy="190" rx="5.1" ry="2.5" fill="#BCD7AE" transform="rotate(-10 34 190)"/>
+
+    <path d="M43 219 C52 221,58 227,62 235" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="59" cy="230" rx="6.0" ry="3.0" fill="#D8ECD0" transform="rotate(31 59 230)"/>
+    <ellipse cx="52" cy="224" rx="5.2" ry="2.6" fill="#BCD7AE" transform="rotate(10 52 224)"/>
+    <path d="M42 241 C33 243,27 251,23 259" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="28" cy="253" rx="5.8" ry="2.9" fill="#D8ECD0" transform="rotate(-34 28 253)"/>
+    <ellipse cx="34" cy="247" rx="5.1" ry="2.5" fill="#BCD7AE" transform="rotate(-10 34 247)"/>
+
+    <path d="M43 277 C52 279,57 285,61 293" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="58" cy="288" rx="6.0" ry="3.0" fill="#D8ECD0" transform="rotate(30 58 288)"/>
+    <ellipse cx="52" cy="282" rx="5.2" ry="2.6" fill="#BCD7AE" transform="rotate(8 52 282)"/>
+    <path d="M42 299 C33 301,28 309,24 316" stroke="#94BD83" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="28" cy="310" rx="5.8" ry="2.9" fill="#D8ECD0" transform="rotate(-34 28 310)"/>
+    <ellipse cx="34" cy="305" rx="5.1" ry="2.5" fill="#BCD7AE" transform="rotate(-10 34 305)"/>
+  </g>
+
+  <!-- tiny buds -->
+  <g fill="#F7C7D6" opacity="0.9">
+    <circle cx="31" cy="40" r="2.2"/><circle cx="34.5" cy="42.5" r="1.4" fill="#FBE2EA"/>
+    <circle cx="26" cy="152" r="2.0"/><circle cx="29.2" cy="154.1" r="1.2" fill="#FBE2EA"/>
+    <circle cx="62" cy="205" r="2.1"/><circle cx="65.2" cy="207.2" r="1.2" fill="#FBE2EA"/>
+    <circle cx="30" cy="330" r="2.0"/><circle cx="33.2" cy="332.2" r="1.2" fill="#FBE2EA"/>
+  </g>
+
+  <!-- blossom helper: layered softer flowers -->
+  <g transform="translate(58 72)">
+    <animateTransform attributeName="transform" type="translate" values="58 72;58 70.2;58 72" dur="4.8s" begin="0s" repeatCount="indefinite"/>
+    <g opacity="0.22"><circle cx="1.2" cy="1.8" r="13" fill="#F7D2DE"/></g>
+    <ellipse cx="0" cy="-9.2" rx="5.8" ry="8.9" fill="#FAD2DE"/>
+    <ellipse cx="7.3" cy="-5.1" rx="5.6" ry="8.6" fill="#F6BFD0" transform="rotate(52 7.3 -5.1)"/>
+    <ellipse cx="8.3" cy="3.8" rx="5.6" ry="8.6" fill="#FAD2DE" transform="rotate(102 8.3 3.8)"/>
+    <ellipse cx="3.2" cy="10.1" rx="5.6" ry="8.6" fill="#F6BFD0" transform="rotate(154 3.2 10.1)"/>
+    <ellipse cx="-5.4" cy="8.9" rx="5.6" ry="8.6" fill="#FAD2DE" transform="rotate(206 -5.4 8.9)"/>
+    <ellipse cx="-9.0" cy="1.3" rx="5.6" ry="8.6" fill="#F6BFD0" transform="rotate(258 -9.0 1.3)"/>
+    <ellipse cx="-5.7" cy="-6.5" rx="5.6" ry="8.6" fill="#FAD2DE" transform="rotate(311 -5.7 -6.5)"/>
+    <circle cx="0" cy="0" r="4.5" fill="#FFF4F8" stroke="#E69DB6" stroke-width="1.25"/>
+    <circle cx="-1.8" cy="-1.2" r="0.65" fill="#E59CB4"/><circle cx="1.8" cy="-1.2" r="0.65" fill="#E59CB4"/><circle cx="0" cy="1.8" r="0.65" fill="#E59CB4"/>
+  </g>
+
+  <g transform="translate(59 129)">
+    <animateTransform attributeName="transform" type="translate" values="59 129;59 127.8;59 129" dur="4.9s" begin="0.35s" repeatCount="indefinite"/>
+    <g opacity="0.2"><circle cx="1.0" cy="1.2" r="10.2" fill="#F8D5E0"/></g>
+    <ellipse cx="0" cy="-7.3" rx="4.9" ry="7.6" fill="#FAD2DE"/>
+    <ellipse cx="6.0" cy="-2.7" rx="4.7" ry="7.2" fill="#F6BFD0" transform="rotate(68 6.0 -2.7)"/>
+    <ellipse cx="3.9" cy="4.8" rx="4.7" ry="7.2" fill="#FAD2DE" transform="rotate(142 3.9 4.8)"/>
+    <ellipse cx="-3.9" cy="4.8" rx="4.7" ry="7.2" fill="#F6BFD0" transform="rotate(216 -3.9 4.8)"/>
+    <ellipse cx="-6.0" cy="-2.7" rx="4.7" ry="7.2" fill="#FAD2DE" transform="rotate(290 -6.0 -2.7)"/>
+    <circle cx="0" cy="0" r="3.5" fill="#FFF4F8" stroke="#E69DB6" stroke-width="1.05"/>
+  </g>
+
+  <g transform="translate(58 184)">
+    <animateTransform attributeName="transform" type="translate" values="58 184;58 182.8;58 184" dur="4.7s" begin="0.75s" repeatCount="indefinite"/>
+    <g opacity="0.16"><circle cx="1.0" cy="1.0" r="10.5" fill="#DCECD5"/></g>
+    <ellipse cx="0" cy="-7.1" rx="4.9" ry="7.6" fill="#CFE4C2"/>
+    <ellipse cx="6.0" cy="-2.6" rx="4.6" ry="7.1" fill="#B7D0AC" transform="rotate(68 6.0 -2.6)"/>
+    <ellipse cx="3.8" cy="4.8" rx="4.6" ry="7.1" fill="#DCECD5" transform="rotate(142 3.8 4.8)"/>
+    <ellipse cx="-3.8" cy="4.8" rx="4.6" ry="7.1" fill="#B7D0AC" transform="rotate(216 -3.8 4.8)"/>
+    <ellipse cx="-6.0" cy="-2.6" rx="4.6" ry="7.1" fill="#CFE4C2" transform="rotate(290 -6.0 -2.6)"/>
+    <circle cx="0" cy="0" r="3.5" fill="#F7FBF4" stroke="#94BD83" stroke-width="1.05"/>
+  </g>
+
+  <g transform="translate(59 241)">
+    <animateTransform attributeName="transform" type="translate" values="59 241;59 239.6;59 241" dur="4.95s" begin="1.05s" repeatCount="indefinite"/>
+    <g opacity="0.18"><circle cx="1.0" cy="1.0" r="9.8" fill="#DCECD5"/></g>
+    <ellipse cx="0" cy="-6.6" rx="4.5" ry="7.0" fill="#DCECD5"/>
+    <ellipse cx="5.7" cy="-2.2" rx="4.3" ry="6.6" fill="#B7D0AC" transform="rotate(68 5.7 -2.2)"/>
+    <ellipse cx="3.6" cy="4.4" rx="4.3" ry="6.6" fill="#DCECD5" transform="rotate(142 3.6 4.4)"/>
+    <ellipse cx="-3.6" cy="4.4" rx="4.3" ry="6.6" fill="#B7D0AC" transform="rotate(216 -3.6 4.4)"/>
+    <ellipse cx="-5.7" cy="-2.2" rx="4.3" ry="6.6" fill="#CFE4C2" transform="rotate(290 -5.7 -2.2)"/>
+    <circle cx="0" cy="0" r="3.2" fill="#F7FBF4" stroke="#94BD83" stroke-width="1.0"/>
+  </g>
+
+  <g transform="translate(58 298)">
+    <animateTransform attributeName="transform" type="translate" values="58 298;58 296.3;58 298" dur="4.8s" begin="1.4s" repeatCount="indefinite"/>
+    <g opacity="0.22"><circle cx="1.0" cy="1.6" r="10.8" fill="#F8D5E0"/></g>
+    <ellipse cx="0" cy="-7.8" rx="5.1" ry="7.9" fill="#FAD2DE"/>
+    <ellipse cx="6.3" cy="-3.0" rx="4.8" ry="7.4" fill="#F6BFD0" transform="rotate(68 6.3 -3.0)"/>
+    <ellipse cx="4.1" cy="5.0" rx="4.8" ry="7.4" fill="#FAD2DE" transform="rotate(142 4.1 5.0)"/>
+    <ellipse cx="-4.1" cy="5.0" rx="4.8" ry="7.4" fill="#F6BFD0" transform="rotate(216 -4.1 5.0)"/>
+    <ellipse cx="-6.3" cy="-3.0" rx="4.8" ry="7.4" fill="#FAD2DE" transform="rotate(290 -6.3 -3.0)"/>
+    <circle cx="0" cy="0" r="3.6" fill="#FFF4F8" stroke="#E69DB6" stroke-width="1.05"/>
+  </g>
+
+  <circle cx="35" cy="36" r="2.2" fill="#F7CFDB" opacity="0.82"/>
+  <circle cx="63" cy="338" r="2.1" fill="#D8ECD0" opacity="0.82"/>
+</g>
+
+<path id="starPath" d="M190 48 C320 10 510 14 745 55" fill="none" stroke="none"/>
+<g><path d="M0 -7 L2 -2 L7 0 L2 2 L0 7 L-2 2 L-7 0 L-2 -2 Z" fill="#F5C1D0">
+<animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#starPath"/></animateMotion>
+<animate attributeName="opacity" values="0.35;1;0.35" dur="2.5s" repeatCount="indefinite"/>
+</path></g>
+<g transform="translate(255 40) scale(1.0)"><path d="M0 -5 L1.3 -1.3 L5 0 L1.3 1.3 L0 5 L-1.3 1.3 L-5 0 L-1.3 -1.3 Z" fill="#F5C1D0">
+<animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.0s" begin="0s" repeatCount="indefinite"/>
+</path></g>
+<g transform="translate(385 23) scale(0.85)"><path d="M0 -5 L1.3 -1.3 L5 0 L1.3 1.3 L0 5 L-1.3 1.3 L-5 0 L-1.3 -1.3 Z" fill="#F5C1D0">
+<animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.0s" begin="0.8s" repeatCount="indefinite"/>
+</path></g>
+<g transform="translate(610 35) scale(1.1)"><path d="M0 -5 L1.3 -1.3 L5 0 L1.3 1.3 L0 5 L-1.3 1.3 L-5 0 L-1.3 -1.3 Z" fill="#F5C1D0">
+<animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.0s" begin="1.6s" repeatCount="indefinite"/>
+</path></g>
+<g transform="translate(770 50) scale(0.8)"><path d="M0 -5 L1.3 -1.3 L5 0 L1.3 1.3 L0 5 L-1.3 1.3 L-5 0 L-1.3 -1.3 Z" fill="#F5C1D0">
+<animate attributeName="opacity" values="0.2;0.85;0.2" dur="3.0s" begin="2.2s" repeatCount="indefinite"/>
+</path></g>
+<text x="72" y="77" font-size="11.6" font-weight="700" letter-spacing="1.35" fill="#7F8996">DATA / ANALYTICS</text>
+<g transform="translate(172 72)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.20s" begin="0.00s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="72" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Excel</text>
+</g>
+<g transform="translate(254 72)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.35s" begin="0.17s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="64" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">SQL</text>
+</g>
+<g transform="translate(328 72)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.50s" begin="0.34s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="86" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Python</text>
+</g>
+<g transform="translate(424 72)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.65s" begin="0.51s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="98" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Power BI</text>
+</g>
+<text x="72" y="133" font-size="11.6" font-weight="700" letter-spacing="1.35" fill="#7F8996">AI / PRODUCT</text>
+<g transform="translate(172 128)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.20s" begin="0.23s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="132" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Prompt Design</text>
+</g>
+<g transform="translate(314 128)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.35s" begin="0.40s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="102" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">LLM Apps</text>
+</g>
+<g transform="translate(426 128)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.50s" begin="0.57s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="96" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">ChatGPT</text>
+</g>
+<g transform="translate(532 128)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.65s" begin="0.74s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="86" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Claude</text>
+</g>
+<g transform="translate(628 128)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.80s" begin="0.91s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="72" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Dify</text>
+</g>
+<text x="72" y="189" font-size="11.6" font-weight="700" letter-spacing="1.35" fill="#7F8996">AI / MODELS</text>
+<g transform="translate(172 184)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.20s" begin="0.46s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="100" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">DeepSeek</text>
+</g>
+<g transform="translate(282 184)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.35s" begin="0.63s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="80" height="32" rx="16" fill="#F6FBF4" stroke="#7FA36B" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#A9C59A"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#7FA36B">Qwen</text>
+</g>
+<g transform="translate(372 184)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.50s" begin="0.80s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="78" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Coze</text>
+</g>
+<text x="72" y="245" font-size="11.6" font-weight="700" letter-spacing="1.35" fill="#7F8996">BUSINESS / OPS</text>
+<g transform="translate(172 240)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.20s" begin="0.69s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="92" height="32" rx="16" fill="#F6FBF4" stroke="#7FA36B" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#A9C59A"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#7FA36B">Strategy</text>
+</g>
+<g transform="translate(274 240)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.35s" begin="0.86s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="112" height="32" rx="16" fill="#F6FBF4" stroke="#7FA36B" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#A9C59A"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#7FA36B">Operations</text>
+</g>
+<g transform="translate(396 240)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.50s" begin="1.03s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="118" height="32" rx="16" fill="#F6FBF4" stroke="#7FA36B" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#A9C59A"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#7FA36B">E-commerce</text>
+</g>
+<g transform="translate(524 240)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.65s" begin="1.20s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="152" height="32" rx="16" fill="#F6FBF4" stroke="#7FA36B" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#A9C59A"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#7FA36B">Merchant Growth</text>
+</g>
+<g transform="translate(686 240)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.80s" begin="1.37s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="148" height="32" rx="16" fill="#F6FBF4" stroke="#7FA36B" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#A9C59A"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#7FA36B">Market Research</text>
+</g>
+<text x="72" y="301" font-size="11.6" font-weight="700" letter-spacing="1.35" fill="#7F8996">TOOLS / WORKFLOW</text>
+<g transform="translate(172 296)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.20s" begin="0.92s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="84" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">GitHub</text>
+</g>
+<g transform="translate(266 296)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.35s" begin="1.09s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="84" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Notion</text>
+</g>
+<g transform="translate(360 296)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.50s" begin="1.26s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="120" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">PowerPoint</text>
+</g>
+<g transform="translate(490 296)">
+<animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -1.6;0 0" dur="4.65s" begin="1.43s" repeatCount="indefinite"/>
+<rect x="0" y="-16" width="78" height="32" rx="16" fill="#FFF7FA" stroke="#DE849F" stroke-width="1.8"/>
+<circle cx="15" cy="0" r="3.4" fill="#F2A5B9"/>
+<text x="27" y="5" font-size="13.1" font-weight="700" fill="#DE849F">Figma</text>
+</g>
+<line x1="18" y1="360" x2="882" y2="360" stroke="#F2DCE3" stroke-width="1"/>
+<text x="450" y="354" text-anchor="middle" font-size="11" font-weight="600" letter-spacing="0.75" fill="#7F8996">A blend of data sense, product thinking, and business execution</text>
 </svg>
