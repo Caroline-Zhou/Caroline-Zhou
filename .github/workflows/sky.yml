@@ -31,10 +31,102 @@ jobs:
 
       - uses: yuki4266/living-scene@v1
         with:
-             lat: "31.2304" # Shanghai, China
-             lon: "121.4737"
-             tz: Asia/Shanghai
-             weather: ${{ inputs.weather }}
-             season: ${{ inputs.season }}
-             force: ${{ inputs.force }}
-             commit-message: "🌦 scene sync: {state}"
+          lat: "31.2304" # Shanghai, China
+          lon: "121.4737"
+          tz: Asia/Shanghai
+          weather: ${{ inputs.weather }}
+          season: ${{ inputs.season }}
+          force: ${{ inputs.force }}
+          commit-message: "🌦 scene sync: {state}"
+
+      - name: Apply Caroline pastel sky theme
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          DAY_MAP = {
+              "#F4B183": "#F7C9D6",
+              "#F4795B": "#F3A7BC",
+              "#FBC7B3": "#F8DCE6",
+              "#ED8B66": "#C9DDBD",
+              "#CBD5E1": "#E7EEE3",
+              "#9FB0C2": "#CBD9C7",
+              "#8E9DB2": "#D7DED4",
+              "#6C7B92": "#BFCBBC",
+              "#B7C2D2": "#EEF1EC",
+              "#93A2B8": "#D7E1D3",
+              "#707E94": "#C7CEC9",
+              "#525F75": "#ADB8B0",
+              "#8FA8C4": "#D8E2DC",
+              "#9FACBC": "#C4D1C7",
+              "#C4D2E0": "#F2F4F1",
+              "#B9C9DA": "#E5ECE7",
+              "#EDF2F7": "#F8FAF8",
+              "#8b949e": "#9AA3AD",
+          }
+
+          NIGHT_MAP = {
+              "#D9E6F5": "#F0D7E2",
+              "#FFD9A8": "#F0D7AA",
+              "#FF9075": "#EFB6C8",
+              "#FFD0BE": "#E7C6D3",
+              "#FFA584": "#A9BE9E",
+              "#4E5866": "#64715E",
+              "#3E4754": "#4E584A",
+              "#566274": "#667066",
+              "#454F60": "#525B52",
+              "#5A6675": "#6D786B",
+              "#49535F": "#596258",
+              "#3C4656": "#586057",
+              "#303A4A": "#454D46",
+              "#6E87A3": "#77867A",
+              "#525C68": "#5B655D",
+              "#E9F0F8": "#E9E8ED",
+              "#DCE7F2": "#DADDE0",
+              "#B9C7D6": "#C9CED2",
+              "#8b949e": "#B9B5C5",
+          }
+
+          def flower_patrol(night=False):
+              pink = "#EFB6C8" if night else "#F3A7BC"
+              pink2 = "#E7C6D3" if night else "#F8DCE6"
+              green = "#A9BE9E" if night else "#B8D0AA"
+              gold = "#E8D29F" if night else "#F4D7A1"
+              path = "M880 30 C700 60 560 5 420 40 C300 68 160 15 20 38 C160 62 340 20 520 50 C680 72 800 45 880 30"
+              return f'''<g opacity="0"><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;0.05;0.95;1" dur="16s" begin="1s" repeatCount="indefinite"/><g><animateMotion dur="16s" begin="1s" repeatCount="indefinite" rotate="auto" path="{path}"/><g transform="scale(0.9)"><g><animateTransform attributeName="transform" type="rotate" values="-7;7;-7" dur="1.8s" repeatCount="indefinite"/><ellipse cx="0" cy="-7" rx="4" ry="7" fill="{pink2}"/><ellipse cx="6.7" cy="-2" rx="4" ry="7" fill="{pink}" transform="rotate(72 6.7 -2)"/><ellipse cx="4.2" cy="5.7" rx="4" ry="7" fill="{pink2}" transform="rotate(144 4.2 5.7)"/><ellipse cx="-4.2" cy="5.7" rx="4" ry="7" fill="{pink}" transform="rotate(216 -4.2 5.7)"/><ellipse cx="-6.7" cy="-2" rx="4" ry="7" fill="{pink2}" transform="rotate(288 -6.7 -2)"/><circle cx="0" cy="0" r="3.4" fill="{gold}"/><path d="M8 4 Q13 7 16 12" stroke="{green}" stroke-width="1.3" fill="none" stroke-linecap="round"/><ellipse cx="16" cy="12" rx="3.6" ry="1.8" fill="{green}" transform="rotate(32 16 12)"/></g><g opacity="0.75"><circle cx="-16" cy="2" r="1.5" fill="{pink}"><animate attributeName="opacity" values="0;0.9;0" dur="1.5s" repeatCount="indefinite"/></circle><path d="M-26 -3 L-25 -1 L-23 0 L-25 1 L-26 3 L-27 1 L-29 0 L-27 -1 Z" fill="{gold}"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.3s" begin="0.4s" repeatCount="indefinite"/></path><circle cx="-36" cy="5" r="1.2" fill="{green}"><animate attributeName="opacity" values="0;0.8;0" dur="1.8s" begin="0.7s" repeatCount="indefinite"/></circle></g></g></g></g>'''
+
+          def restyle(path, mapping, night=False):
+              p = Path(path)
+              if not p.exists():
+                  return
+              s = p.read_text()
+              for old, new in mapping.items():
+                  s = s.replace(old, new)
+
+              # In spring/summer clear/clouds, living-scene puts the butterfly
+              # immediately before the LIVE SKY label. Replace it with a pink
+              # flower + sparkle trail. Other weather states are left intact.
+              start = s.rfind('<g opacity="0"><animate attributeName="opacity" values="0;0.95;0.95;0"')
+              label = s.rfind('<text x="893"')
+              if start != -1 and label != -1 and start < label:
+                  s = s[:start] + flower_patrol(night) + s[label:]
+
+              p.write_text(s)
+
+          restyle("sky.svg", DAY_MAP, False)
+          restyle("sky-night.svg", NIGHT_MAP, True)
+          PY
+
+      - name: Commit pastel restyle
+        shell: bash
+        run: |
+          if git diff --quiet -- sky.svg sky-night.svg; then
+            echo "Pastel sky already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sky.svg sky-night.svg
+          git commit -m "🌸 restyle live sky"
+          git push
