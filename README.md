@@ -23,18 +23,12 @@
 
 <br/>
 
-<!-- ============ Stats ============ -->
+<!-- ============ Current Focus ============ -->
 <div align="center">
-
-<img height="170em" src="https://streak-stats.demolab.com/?user=Caroline-Zhou&hide_border=true&background=00000000&ring=F4795B&fire=F4795B&currStreakLabel=F4795B&sideLabels=555555&dates=AAAAAA&currStreakNum=333333&sideNums=333333" />
-
+  <img src="current-focus.svg" width="900" alt="Caroline Zhou — current focus" />
 </div>
 
 <br/>
-
-<!-- ============ Snake ============ -->
-<div align="center">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Caroline-Zhou/Caroline-Zhou/output/github-contribution-grid-snake.svg" />
 
 <!-- ============ Footer (a cat lives here) ============ -->
 <div align="center">
